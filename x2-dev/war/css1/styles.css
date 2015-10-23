@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+
+body{  font-family:Arial; font-size:13px; color:#706f6f; line-height:normal; text-align:justify; background-image:url(../images/bg_main.jpg); background-repeat:repeat;}
+.clear{clear:both;}
+
+.wrapper{width:950px; height:620px; margin:0px auto; padding:0px; }
+.mainarea{width:950px; height:555px;}
+.footerarea{width:950px; height:19px; padding:0px; font-family:Verdana; font-size:9px; color:#4a4a49; line-height:19px; font-style:normal; font-weight:normal; text-align:center;}
+.footerarea a{font-family:Verdana; font-size:9px; color:#4a4a49; line-height:19px; font-style:normal; font-weight:normal; text-decoration:none;}
+.footerarea a:hover{color:#4a4a49; text-decoration:underline;}
+
+.intrologo{width:405px; height:120px; padding:150px 0px 0px 250px; float:left;}
+.introtext{width:400px; height:100px; padding:30px 0px 0px 280px; float:left;}
+span.intro a{width:auto; height:21px; float:left; font-family:Calibri; font-size:17px; font-style:normal; text-align:center; text-decoration:none; color:#987a56;}
+span.intro a:hover{text-decoration:none; color:#000000;}
+
+.leftarea{width:250px; height:555px; float:left;}
+.midarea{width:325px; height:555px; float:left;}
+.midarea2{width:25px; height:555px; float:left;}
+.rightarea{width:350px; height:555px; float:left;}
+
+.logoarea{width:250px; height:179px; float:left; background-image:url(../images/logo2.png)}
+.menuarea{width:250px; height:350px; float:left; background-image:url(../images/leftbtmimg.png); background-repeat :no-repeat; background-position:bottom;}
+.leftbtm{width:250px; height:250px; float:left; background-color:#ab8d69;}
+.leftbtm img{opacity: 1; filter: alpha(opacity=100);}
+.leftbtm img:hover{opacity: .90; filter: alpha(opacity=95); cursor: pointer;}
+
+
+.videoarea{background:#d7c7b7 url(../images/video.jpg) no-repeat left top; padding:49px 0px 0px 0px; width:331px; height:187px; float:left;}
+.midbtm{width:331; height:395px; float:left;}
+.midbtm2{width:331; height:335px; float:right; }
+.midbtm img{opacity: 1; filter: alpha(opacity=100); }
+.midbtm img:hover{opacity: .95; filter: alpha(opacity=95); cursor: pointer;}
+
+.r_top{width:330px; height:49px; float:left;}
+.r_top2{width:330px; height:109px; float:left;}
+.right_top{width:330px; height:400px; float:left;}
+.right_top img{opacity: 1; filter: alpha(opacity=100);}
+.right_top img:hover{opacity: .95; filter: alpha(opacity=95); cursor: pointer;}
+
+.subscribeMessage{width:330px; height:92px;  padding:5px 0px 0px 0px; float:left; background:url(../images/news.png) no-repeat left top; font-family:Calibri; font-size:14px; color:#000000; font-style:normal; font-weight:bold; text-align:center; vertical-align: middle; }
+.subscribe{width:330px; height:92px; float:left; background:url(../images/news.png) no-repeat left top; font-family:Calibri; font-size:12px; color:#FFFFFF; line-height:30px; font-style:normal; font-weight:bold; text-align:center;}
+.r_btm{width:330px; height:7px; float:left;}
+#subscribe-container {width:324px; height:47px; text-align:center; }
+#subscribe-container input{ vertical-align:middle; }
+
+.showInterestMessage{width:inherit; height:52px;   float:left; background:url(../images/news.png) no-repeat left top; font-family:Calibri; font-size:14px; color:#000000; font-style:normal; font-weight:bold; text-align:center; vertical-align: middle; }
+.showInterest{width:inherit; height:52px; float:left; z-index:-1; background:url(../images/news.png) no-repeat left top; font-family:Calibri; font-size:12px; color:#FFFFFF;  font-style:normal; font-weight:bold; text-align:center;}
+#showInterest-container {width:inherit; height:47px; text-align:center; }
+#showInterest-container input{ vertical-align:middle; }
+
+.news{width:330px; height:92px; float:left; background:url(../images/news.jpg) no-repeat left top; font-family:Calibri; font-size:12px; color:#FFFFFF; line-height:21px; font-style:normal; font-weight:bold; text-align:center;}
+.r_btm{width:330px; height:7px; float:left;}
+#news-container{width:324px; height:48px; margin:10px 2px 0px 3px; text-align:center; overflow:hidden;}
+#news-container ul li{border:none; list-style-type:none; margin:0px; padding:0px;}
+#news-container ul li.small{border:none; list-style-type:none; margin:0px; padding:0px; font-family:Calibri; font-size:14px; color:#FFFFFF; line-height:21px; font-style:normal; font-weight:bold; text-align:center;}
+
+.inner_rightarea{width:659px; height:599px; border:#bfbdb6 1px solid; float:left;}
+.closebtn{width:40px; height:23px; padding:25px 10px 0px 619px;}
+.title{width:659px; height:55px; float:left; background-color:#bfa58d; font-family:Verdana; font-size:17px; font-style:normal; font-weight:normal; color:#FFFFFF; line-height:50px;}
+.bannerarea{width:660px; height:130px; float:left;}
+.textarea{background:url(../images/scrollarea.png) no-repeat left top; width:659px; height:434px; float:left; font-family:Verdana; font-size:12px; font-style:normal; font-weight:normal; color:#FFFFFF; text-align: justify; }
+.textarea2{background:url(../images/scrollarea2.png) no-repeat left top; width:659px; height:495px; float:left; font-family:Verdana; font-size:12px; font-style:normal; font-weight:normal; color:#FFFFFF; text-align: justify; }
+.contact{width:250px;}
+.textarea_2{background:url(../images/textarea.jpg) no-repeat left top; width:579px; height:484px; padding:90px 0px 0px 80px; float:left; font-family:Verdana; font-size:12px; font-style:normal; font-weight:normal; color:#FFFFFF;}
+p.heading{font-family:Verdana; font-size:16px; font-style:normal; font-weight:normal; color:#FFFFFF;}
+p.flagship{font-family:Verdana; font-size:13px; font-style:normal; font-weight:normal; color:#FFFFFF; line-height:19px;}
+p.heading2{font-family:Verdana; font-size:16px; font-style:normal; font-weight:normal; color:#000000; margin-bottom:15px;}
+p.heading3{font-family:Verdana; font-size:14px; font-style:normal; font-weight:normal; color:#000000; margin:10px 0px; text-decoration:underline;}
+ul.career{margin:0px; padding:0px;}
+ul.career li{margin:0px 0px 0px 25px; padding:0px 0px 0px 5px;}
+
+.textarea_3{background:url(../images/textarea.jpg) no-repeat left top; width:579px; height:284px; padding:50px 0px 0px 50px; float:left; font-family:Verdana; font-size:12px; font-style:normal; font-weight:normal; color:#FFFFFF;}
+
+
+.galleryarea{width:658px; height:465px; float:left;}
+#slideshow {list-style:none; color:#fff; background-color:#fffdf3;}
+#slideshow span {display:none}
+#wrapper {width:658px; margin:0px auto; display:none}
+#wrapper * {margin:0; padding:0}
+#fullsize {position:relative; width:658px; height:495px; padding:0px; background-color:#fffdf3;}
+#information {position:absolute; bottom:0; margin-left:68px; margin-bottom:20px; width:530px; height:0; background:#000; color:#fff; overflow:hidden; z-index:200; opacity:.7; filter:alpha(opacity=60)}
+#information h3 {padding:0px; margin:0px auto; font-size:12px; text-align:center;}
+#information p {line-height:25px; padding:0px; margin:0px auto; text-align:center;}
+#image {width:656px; background-color:#fffdf3;}
+#image img {position:absolute; z-index:25; width:auto; }
+.imgnav {position:absolute; width:20px; height:23px; cursor:pointer; z-index:150}
+#imgprev {left:48px; top:150px; background:url(../images/prev.jpg) left center no-repeat}
+#imgnext {right:50px; top:150px; background:url(../images/next.jpg) right center no-repeat}
+/*#imglink {position:absolute; height:306px; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
+.linkhover {background:url(images/link.gif) center center no-repeat}*/
+#thumbnails {margin:0px; padding:0px;}
+#slideleft {float:left; width:0px; height:0px; }
+/*#slideleft:hover {background-color:#ab8d69}*/
+#slideright {float:right; width:0px; }
+/*#slideright:hover {background-color:#ab8d69}*/
+#slidearea {float:left; position:relative; width:1px; padding:0px 6px 0px 6px; height:1px; overflow:hidden;}
+/*
+here bg colour is the color of the bottom thumbnail navigation 
+#slider {position:absolute; left:0; width:546px; height:130px; background-color:#000000;}*/
+#slider {position:absolute; left:0; width:1px; height:1px; background-color:#FFFFFF;}
+#slider img { border:1px solid #666; padding:2px; margin-top:15px;}
+
+.collection_link{font-family:Calibri; font-size:14px; font-style:normal; font-weight:normal; color:#FFFFFF; text-align:left; line-height:21px;}
+.collection_link a{font-family:Calibri; font-size:14px; font-style:normal; font-weight:normal; color:#FFFFFF; text-align:left; line-height:21px; text-decoration:none;}
+.collection_link a:hover{color:#000000; text-decoration:none;}
+
+
+

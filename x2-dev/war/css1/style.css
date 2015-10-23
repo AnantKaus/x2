@@ -1,0 +1,169 @@
+.hs-wrapper{
+	width: 333px;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.hs-wrapper img{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	-webkit-animation: showMe 8.0s linear infinite 1s forwards;
+	-moz-animation: showMe 8.0s linear infinite 1s forwards;
+	-o-animation: showMe 8.0s linear infinite 1s forwards;
+	-ms-animation: showMe 8.0s linear infinite 1s forwards;
+	animation: showMe 8.0s linear infinite 1s forwards;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;	
+}
+.hs-wrapper img:nth-child(1){
+	z-index: 9;
+}
+.hs-wrapper img:nth-child(2){
+    -webkit-animation-delay: 1.0s;
+	-moz-animation-delay: 1.0s;
+	-o-animation-delay: 1.0s;
+	-ms-animation-delay: 1.0s;
+	animation-delay: 1.0s;
+	z-index: 8;
+}
+.hs-wrapper img:nth-child(3){
+    -webkit-animation-delay: 2.0s;
+	-moz-animation-delay: 2.0s;
+	-o-animation-delay: 2.0s;
+	-ms-animation-delay: 2.0s;
+	animation-delay: 2.0s;
+	z-index: 7;
+}
+
+.hs-wrapper img:nth-child(4){
+    -webkit-animation-delay: 3.0s;
+	-moz-animation-delay: 3.0s;
+	-o-animation-delay: 3.0s;
+	-ms-animation-delay: 3.0s;
+	animation-delay: 3.0s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(5){
+    -webkit-animation-delay: 4.0s;
+	-moz-animation-delay: 4.0s;
+	-o-animation-delay: 4.0s;
+	-ms-animation-delay: 4.0s;
+	animation-delay: 4.0s;
+	z-index: 5;
+}
+.hs-wrapper img:nth-child(6){
+    -webkit-animation-delay: 5.0s;
+	-moz-animation-delay: 5.0s;
+	-o-animation-delay: 5.0s;
+	-ms-animation-delay: 5.0s;
+	animation-delay: 5.0s;
+	z-index: 4;
+}
+.hs-wrapper img:nth-child(7){
+    -webkit-animation-delay: 6.0s;
+	-moz-animation-delay: 6.0s;
+	-o-animation-delay: 6.0s;
+	-ms-nimation-delay: 6.0s;
+	animation-delay: 6.0s;
+	z-index: 3;
+}
+.hs-wrapper img:nth-child(8){
+    -webkit-animation-delay: 7.0s;
+	-moz-animation-delay: 7.0s;
+	-o-animation-delay: 7.0s;
+	-ms-animation-delay: 7.0s;
+	animation-delay: 7.0s;
+	z-index: 2;
+}
+.hs-wrapper:hover img{
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-o-animation-play-state: running;
+	-ms-animation-play-state: running;
+	animation-play-state: running;
+}
+.hs-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 500;
+	background: rgba(0,0,0,0.6);
+	box-shadow: 0 0 0 0 rgba(255,255,255,0.3) inset;
+	pointer-events: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.hs-overlay span{
+	display: block;
+	padding: 20px;
+	position: absolute;
+	width: 293px;
+	left: 20px;
+	top: 200px;
+	color: #fff;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	font-size: 38px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	text-align: center;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.hs-wrapper:hover .hs-overlay{
+	opacity: 1;
+	box-shadow: 0 0 0 5px rgba(255,255,255,0.3) inset;
+}
+
+@-webkit-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-moz-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-o-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-ms-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+

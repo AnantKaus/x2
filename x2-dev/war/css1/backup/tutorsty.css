@@ -1,0 +1,19 @@
+/*Page related styles for you to view*/
+#mycustomscroll {
+	/* Typical fixed height and fixed width example */
+    width: 525px;
+	height: 250px;
+	overflow:hidden;
+	/* IE overflow fix, position must be relative or absolute*/
+    position: relative;
+	/*background-color: #E7EADE;*/
+    margin: 50px 0px 0px 30px;
+	z-index: 500;
+	float:left;
+	/*outline:none;*/
+	clip: rect( );
+	padding: 5px 28px 10px 20px;!important
+	/*left: 394px;
+	top: 111px;*/
+}
+

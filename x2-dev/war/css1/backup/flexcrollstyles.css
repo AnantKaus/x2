@@ -1,0 +1,19 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+/*  scrollgeneric is used for corrective styling of elements, and should not be modified or removed */ 
+.scrollgeneric {position: absolute;top: 0; left:0;}
+
+.vscrollerbar {width: 7px; background:url(../images/scrollbar.jpg) no-repeat 0px 0px;}
+.vscrollerbarbeg {height: 27px !important; width: 7px; background: no-repeat 0px 0px; clip: rect(   )}
+.vscrollerbarend {height: 27px; width: 7px; background: no-repeat 0px 0px; clip: rect(   )}
+
+.vscrollerbase {width: 7px; height: 23px; clip: rect(   )}/*background: 0px 0px repeat-y;*/
+.vscrollerbasebeg {width: 7px; height: 27px !important;background: no-repeat 0px 0px; clip: rect(   )}
+.vscrollerbaseend {height: 27px; width: 7px; background: 0px 0px no-repeat; clip: rect(   )}
+.vscrollerbar{padding:10px 0px; margin:0px; z-index: 1000; width:7px; height:27px!important; clip: rect(   )}
+
+.scrollerjogbox {width: 7px; height: 27px; top: 0px; left:0px; bottom: 0px; right: 0px;}
+
+/* Scroll Bar Master Styling Ends Here */
+
